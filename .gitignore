@@ -1,0 +1,8 @@
+# Directory created by bundle install
+docs/vendor
+docs/_site
+
+# Virtual environment names
+venv/
+
+Gemfile.lock
