@@ -1,6 +1,4 @@
-##########################
-Building the Documentation
-##########################
+# Building the Documentation
 
 ```.sh
 bundle config set path 'vendor/bundle'

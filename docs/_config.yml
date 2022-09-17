@@ -10,6 +10,8 @@
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "air"
 
+include: ["_pages"]
+
 # Site Settings
 locale                   : "en-US"
 title                    : Richard Group Home
@@ -28,25 +30,6 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 words_per_minute         : 200
 breadcrumbs              : true
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-  giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -84,16 +67,12 @@ analytics:
 author:
   name             : "Ryan M. Richard"
   avatar           : "/assets/images/me.jpeg"
-  bio              : "I am an **amazing** person."
+  bio              : >-
+                     Scientist and Adjunct Professor interested in quantum
+                     chemistry and computer science.
   location         : "Ames, IA"
   email            : "rrichard@ameslab.gov"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "rrichard@ameslab.gov"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ryanmrichard"
@@ -172,14 +151,11 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: America/Chicago
 
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -188,7 +164,6 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -231,6 +206,15 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  people:
+    output: true
+    permalink: /:collection/:path/
+  tutorials:
+    output: true
+    permalink: /:collection/:path/
+  
+
 
 # Defaults
 defaults:
@@ -240,8 +224,37 @@ defaults:
       type: posts
     values:
       layout: single
+      author: ryan_richard
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      author: ryan_richard
+
+  # _people
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+  # _tutorials
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      read_time: true
