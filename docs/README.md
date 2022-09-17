@@ -1,4 +1,4 @@
-# Building the Documentation
+# Building the Website
 
 ```.sh
 bundle config set path 'vendor/bundle'

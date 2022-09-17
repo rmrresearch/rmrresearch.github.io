@@ -9,8 +9,10 @@
 
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "air"
-
 include: ["_pages"]
+
+head_scripts:
+  - "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"
 
 # Site Settings
 locale                   : "en-US"

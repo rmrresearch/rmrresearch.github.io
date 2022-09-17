@@ -11,14 +11,14 @@ parallel_zone:
     btn_class: "btn--primary"
 plugin_play:
   - title: "PluginPlay"
-    image_path: /assets/images/research.png
+    image_path: /assets/images/publications.png
     url: "https://github.com/NWChemEx-Project/PluginPlay"
     excerpt: "Framework for writing modular software"
     btn_label: "GitHub"
     btn_class: "btn--primary"
 chemist:
   - title: "Chemist"
-    image_path: /assets/images/research.png
+    image_path: /assets/images/people.png
     url: "https://github.com/NWChemEx-Project/Chemist"
     excerpt: "High-performance, C++ implementations of chemistry objects"
     btn_label: "GitHub"

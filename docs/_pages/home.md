@@ -12,7 +12,7 @@ header:
     - label: "GhostFragment"
       url: "https://github.com/rmrresearch/GhostFragment"
 excerpt: >-
-         We are interested in high-performance, high-accuracy quantum 
+         Interested in high-performance, high-accuracy quantum 
          chemistry, and the computer science underlying it."
 intro: 
   - excerpt: 'The Richard group...'
@@ -43,6 +43,12 @@ gallery2:
     alt: "Publications"
     url: "/publications/"   
 ---
+
+Welcome to the Richard Group homepage! Use the links below to learn more about
+the group members and our research. This site also serves as resource for
+current group members (or I guess really anyone with internet access) and
+contains a number of tutorials and resources that have been useful in our
+day to day workflows.
 
 {% include gallery %}
 
