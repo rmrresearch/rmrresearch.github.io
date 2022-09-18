@@ -6,3 +6,9 @@ docs/_site
 venv/
 
 Gemfile.lock
+
+# LaTeX auxiliary files
+cv.aux
+cv.log
+cv.out
+cv.synctex.gz
