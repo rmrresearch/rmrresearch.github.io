@@ -4,11 +4,19 @@ layout: splash
 permalink: /research/
 feature_row:
   - title: "Fragment Based Methods"
-    image_path: /assets/images/fragment_based_methods.png
+    image_path: /assets/images/research/fragment_based_methods.png
     url: /research/fragment_based_methods/
     excerpt: >-
         Pleasantly parallel means of bypassing the highly non-linear scaling
         of traditional electronic structure methods.
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - title: "Software Development"
+    image_path: /assets/images/research/offloading.png
+    url: /research/software_development/
+    excerpt: >-
+        Quantum chemistry is hard, developing quantum chemistry software 
+        doesn't have to be. 
     btn_label: "Learn More"
     btn_class: "btn--primary"
 ---

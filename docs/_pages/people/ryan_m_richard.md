@@ -1,18 +1,15 @@
 ---
 title: Ryan M. Richard
-toc: true
+permalink: /people/ryan_m_richard/
 ---
 
 Role: Benevolent dictator for life of the Richard Group.
 
+{% include figure image_path="/assets/images/people/ryan_m_richard.jpg" %}
+
 [Full curriculum vitae]({{ site.baseurl }}/cv/cv.pdf)
 
 # Brief Biography
-
-{% include figure image_path="/assets/images/people/cleveland.jpeg"
-                  caption="My humble beginnings: Cleveland, OH, *i.e.*, 
-                  The Mistake on the Lake."                 
-%}
 
 I grew up around Cleveland, Ohio. As a kid I spent most of my time playing
 video games, which fueled my interest in technology, electronics, and software. 
@@ -23,6 +20,11 @@ undergraduate research in my second year, I was exposed to computational
 chemistry. The fact that, in theory, all of chemistry could be predicted by 
 solving one equation (the Schrodinger equation) was intoxicating and my career
 path was largely set. I was going to get computers to do chemistry for me.
+
+{% include figure image_path="/assets/images/people/cleveland.jpg"
+                  caption="My humble beginnings: Cleveland, OH, *i.e.*, 
+                  The Mistake on the Lake."                 
+%}
 
 For graduate school I attended *The* Ohio State University. It was at this point
 I began to really understand electronic structure theory and learned  how to 
@@ -43,8 +45,9 @@ professor of chemistry at Iowa State University.
 At the moment my main role is the chief architect and lead developer of 
 NWChemEx. This takes up roughly 80% of my research time. The remaining 20%
 is focused on developing and applying GhostFragment. 
+
 # Hobbies (*i.e.*, the 20% of my day that's not research or sleep)
 
 My dogs. Repairing my house (particularly after my dogs destroy it). Video 
-games.
+games. Working out.
 

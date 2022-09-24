@@ -1,14 +1,14 @@
 ---
 title: Werner Richard
-toc: true
+permalink: /people/werner/
 ---
 
 Role: Weekend Scrum Master.
 
-# Brief Biography
-
 {% include figure image_path="/assets/images/people/werner.jpg"
                   caption="This me." %}
+
+# Brief Biography
 
 One fine May day, during something my hooman calls the pandemic, I went for a
 car ride. It was a long car ride, like a bazillion years (edit from my hooman:
@@ -29,4 +29,4 @@ we hold mandatory scrum meeting at park.
 
 # My Current Research
 
-Hitting turtles to see if they will play with me.
+Pawing turtles to see if they will play with me.

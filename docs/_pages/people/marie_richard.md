@@ -1,14 +1,14 @@
 ---
 title: Marie Richard
-toc: true
+permalink: /people/marie/
 ---
 
 Role: Emotional Support Animal to Werner
 
-# Brief Biography
-
 {% include figure image_path="/assets/images/people/marie.jpg" 
                   caption="That me during intense product support meeting." %}
+
+# Brief Biography
 
 I still remember the most terrifying day of my life. It was in February and the
 nice hoomans took me on a super long car ride. When we got to my new forever
