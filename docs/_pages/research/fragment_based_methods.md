@@ -14,7 +14,7 @@ molecule you are simulating). As an example of non-linear scaling consider
 how the time to solution is affected by doubling the system size (*e.g.*,
 computing the energy of two water molecules instead of one).
 
-{% include figure image_path="/assets/images/non_linear.png"
+{% include figure image_path="/assets/images/research/non_linear.png"
                   caption="How the time to solution changes when you double the 
                            system size for select electronic structure
                            methods. SCF is self-consistent field theory,
@@ -37,7 +37,7 @@ compute the energy of each fragment, and approximate the energy of the system
 by the sum of the fragment energies. For water hexamer this is illustrated
 below.
 
-{% include figure image_path="/assets/images/water_hexamer_1b.png" 
+{% include figure image_path="/assets/images/research/water_hexamer_1b.png" 
                   caption="Fragmenting a water cluster with a one-body many-
                            body expansion." 
 %}
@@ -60,7 +60,7 @@ As you can probably imagine, a one-body MBE results in a relatively terrible
 approximate energy. We can improve on the one-body approximation by using a
 two-body approximation. This two-body approximation is illustrated below.
 
-{% include figure image_path="/assets/images/water_hexamer_2b.png"
+{% include figure image_path="/assets/images/research/water_hexamer_2b.png"
                   caption="Application of a two-body MBE to a water hexamer.
                            *N.B.* Only three of the 6 choose 2 (*i.e.*, 15) 
                            dimers are shown." 
