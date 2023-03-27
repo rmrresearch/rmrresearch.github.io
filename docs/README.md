@@ -1,7 +1,13 @@
 # Building the Website Locally
 
-I'm not a ruby expert, but AFAIK the first time you download this repo you need
-to run:
+First you need `ruby-bundler`, which on Ubuntu is installed by running:
+
+```.sh
+sudo apt install ruby-dev ruby-bundler
+```
+
+Now, I'm not a ruby expert, but AFAIK the first time you download this repo you
+need to run:
 
 ```.sh
 cd docs/
