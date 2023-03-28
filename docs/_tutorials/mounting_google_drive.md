@@ -85,5 +85,5 @@ from within another program.
 
 I pieced this solution together from the following sources:
 
-[solution overview](https://askubuntu.com/a/1332056)
-[rclone config](https://rclone.org/drive/)
+- [solution overview](https://askubuntu.com/a/1332056)
+- [rclone config](https://rclone.org/drive/)
