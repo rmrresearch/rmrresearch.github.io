@@ -45,15 +45,21 @@ convenience we have also recorded our answers to the questions.
     - Answer: Leave blank
 6. Scope that rclone should use when requesting access from drive.
     - Answer: 1
-7. Service Account Credentials JSON file path
+7. ID of the root folder.
+    - Answer: Leave blank 
+8. Service Account Credentials JSON file path
     - Answer: Leave blank
-8. Remote config
-    - Answer: y
-9. Configure this as a Shared Drive (Team Drive)?
+9. Edit advanced config?
     - Answer: n
-10. (At this point it should print out the configuration)
+11. Remote config
     - Answer: y
-
+12. Configure this as a Shared Drive (Team Drive)?
+    - Answer: n
+13. (At this point it should print out the configuration)
+    - Answer: y
+14. You'll be back at the main menu (now with remotes)
+    - Answer: q
+    
 If that was successful it's time for the final step...
 
 # Mouting Google Drive
