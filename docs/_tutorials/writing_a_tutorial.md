@@ -45,4 +45,7 @@ of your tutorial then Ryan gets credit.
 
 If you followed the tutorial so far, simply adding a new markdown file to 
 the `docs/_tutorials` directory is sufficient for Jekyll to pick it up (after 
-the site has been regenerated of course).
+the site has been regenerated of course). If you are hosting the site locally,
+then everytime you save your tutorial the local copy of the website should
+update with your changes.
+
