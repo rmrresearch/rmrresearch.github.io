@@ -9,24 +9,18 @@ me:
     url: /people/ryan_m_richard/
     btn_label: "Profile"
     btn_class: "btn--primary"
-honorary_members:
-  - title: "Werner"
-    image_path: /assets/images/people/werner.jpg
-    url: "/people/werner/"
-    excerpt: "Weekend scrum master"
-    btn_label: "Profile"
-    btn_class: "btn--primary"
-  - title: "Marie"
-    image_path: /assets/images/people/marie.jpg
-    url: "/people/marie"
-    excerpt: "Werner's emotional support animal"
-    btn_label: "Profile"
-    btn_class: "btn--primary"
 ---
 
 {%include feature_row id="me" type="left" %}
 
 
-# Honorary Members
+# Past Members
 
-{% include feature_row id="honorary_members" %}
+## Science Undergraduate Laboratory Internships (SULI)
+
+| Name             | Project                                 | Year |
+|------------------|-----------------------------------------|------|
+| Walker Hayes     | Algorithms for fragment-based methods   | 2023 |
+| Issac Van Orman  | Algorithms for fragment-based methods   | 2023 |
+| Jacob Brunton    | Improving self-consistent field guesses | 2020 |
+| Brodie Schroeder | ML for molecular connectivity           | 2017 | 

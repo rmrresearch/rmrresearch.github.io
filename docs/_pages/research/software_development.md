@@ -1,12 +1,50 @@
 ---
 title: Software Development for Computational Chemistry
-layou: single
-toc: true
+layout: splash
 permalink: /research/software_development/
+feature_row:
+  - title: "ParallelZone"
+    url: "https://github.com/NWChemEx-Project/ParallelZone"
+    excerpt: "A parallel runtime."
+    btn_label: "GitHub"
+    btn_class: "btn--primary"
+  - title: "PluginPlay"
+    image_path: /_pages/research/assets/plugin_play_logo.png
+    url: "https://github.com/NWChemEx-Project/PluginPlay"
+    excerpt: "Framework for writing modular software"
+    btn_label: "GitHub"
+    btn_class: "btn--primary"
+  - title: "SimDE"
+    url: "https://github.com/NWChemEx-Project/SimDE"
+    excerpt: "Framework for writing modular Chemistry software"
+    btn_label: "GitHub"
+    btn_class: "btn--primary"
+feature_row2:
+  - title: "TensorWrapper"
+    image_path: /_pages/research/assets/tensor_wrapper_logo.png
+    url: "https://github.com/NWChemEx-Project/TensorWrapper"
+    excerpt: "C++ library wrapping numerous existing tensor libraries"
+    btn_label: "GitHub"
+    btn_class: "btn--primary"
+  - title: "Chemist"
+    url: "https://github.com/NWChemEx-Project/Chemist"
+    excerpt: "High-performance, C++ implementations of chemistry objects"
+    btn_label: "GitHub"
+    btn_class: "btn--primary"
 ---
 
-Research in this topic area revolves around making the development of new 
-theoretical chemistry methods a more pleasant experience.
+At present many of the projects linked to are not publicly released yet. If you 
+are a member of the NWChemEx-Project GitHub organization the links should take
+you to the corresponding repository; if you are not, you will be unable to see
+the repository. All linked projects will eventually be released as open-source
+software, but development has been somewhat slow.
+{: .notice--warning}
+
+Research in software development revolves around making the development of new 
+theoretical chemistry methods easier and a more pleasant experience. Generally,
+speaking all of our software developments are part of the NWChemEx electronic
+structure package; however, due to the modular nature of NWChemEx most of the
+software is actually usable by many other packages as well.
 
 # Background
 
@@ -22,28 +60,17 @@ incurred because someone chose an easy less robust solution). With these
 practices dating back to the 1970s, in some of the more established packages,
 many packages have lifetimes of unpaid technical debt.
 
-So why do we care how much technical debt a code has? TODO: Finish me!
+So why do we care how much technical debt a code has? The short answer is it
+tends to decrease software sustainability (the ability for a piece of software
+to persist despite new use cases, hardware, and applications). 
 
-Generally speaking 
+In the Richard group we place a serious emphasis on writing good, sustainable
+software. One of the ways we 
 
-# SimDE
+# Frameworks
 
-{% include figure image_path="/assets/images/research/simde.png"
-                  caption="SimDE allows NWChemEx to be built around a 
-                           separations of concerns" 
-%}
+{% include feature_row %}
 
+# Chemistry Utility Libraries
 
-# PluginPlay
-
-{% include figure image_path="/assets/images/research/pt_vs_module.png"
-                  caption="PluginPlay facilitates plugin-based development by
-                           using modules and property types."
-%}
-
-# Research Questions
-
-- How much can we leverage PluginPlay to automate software development?
-
-- Can we get implementing a newly derived theory to an afternoon's worth of
-  coding?
+{% include feature_row id="feature_row2" %}

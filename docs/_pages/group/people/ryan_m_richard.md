@@ -8,6 +8,7 @@ Role: Benevolent dictator for life of the Richard Group.
 {% include figure image_path="/assets/images/people/ryan_m_richard.jpg" %}
 
 [Full curriculum vitae]({{ site.baseurl }}/cv/cv.pdf)
+[OrcID](https://orcid.org/0000-0003-4235-5179)
 
 # Brief Biography
 

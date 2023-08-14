@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/group_banner.png
   actions:
     - label: "Software"
-      url: "/software/"
+      url: "/research/software_development/"
     - label: "GhostFragment"
       url: "https://github.com/rmrresearch/GhostFragment"
 excerpt: >-
@@ -45,6 +45,12 @@ gallery2:
 ---
 
 This website is under heavy construction at the moment.
+{: .notice--warning}
+
+We are very interested in growing and have opportunities for undergraduate,
+graduate, and post doctoral researchers. We also are always looking for 
+additional synergistic collaborations. Please feel free to 
+[reach out](mailto:rrichard@ameslab.gov) if you are interested.
 {: .notice--warning}
 
 
