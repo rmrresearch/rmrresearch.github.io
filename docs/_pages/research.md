@@ -19,13 +19,21 @@ feature_row:
         doesn't have to be. 
     btn_label: "Learn More"
     btn_class: "btn--primary"
+  - title: "Applications"
+    image_path: /assets/images/coming_soon.png
+    excerpt: >-
+       Quantum chemistry aids in understanding and predicting experimental
+       chemistry results.
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
 ---
 
-This page introduces the research topics our group is currently interested in.
-Generally speaking our research falls into one of three aims:
+Generally speaking research in the Richard group falls into one of three 
+categories:
 
-- Method and theory development for electronic structure theory
-- Applying electronic structure theory to real world problems
-- Developing scientific software which makes the first two aims easier.
+- Method and theory development for electronic structure theory.
+- Developing sustainable scientific software designed to make future research
+  easier.
+- Applying electronic structure theory to real world problems.
 
 {% include feature_row %}
