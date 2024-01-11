@@ -26,21 +26,23 @@ None yet.
 
 ## PhD Students
 
-None yet.
+| Name             | Project(s)                              | Year   |
+|------------------|-----------------------------------------|--------|
+| Jacob Heflin     | AI/ML for exploring chemical space      | 2023-- |
 
 ## Science Undergraduate Laboratory Internships (SULI)
 
-Ames National Laboratory is one of 17 Department of Energy (DOE) National 
-Laboratories which participates in the 
-[SULI](https://science.osti.gov/wdts/suli) program. The SULI program is a PAID 
+Ames National Laboratory is one of 17 Department of Energy (DOE) National
+Laboratories which participates in the
+[SULI](https://science.osti.gov/wdts/suli) program. The SULI program is a PAID
 internship which partners scientists at DOE with undergraduates majoring in
 STEM (science, technology, engineering, and math) fields in order to develop
 the student's research skills while contributing to actual state-of-the-art
 research.
 
-| Name             | Project                                 | Year |
+| Name             | Project(s)                              | Year |
 |------------------|-----------------------------------------|------|
 | Walker Hayes     | Algorithms for fragment-based methods   | 2023 |
 | Issac Van Orman  | Algorithms for fragment-based methods   | 2023 |
 | Jacob Brunton    | Improving self-consistent field guesses | 2020 |
-| Brodie Schroeder | ML for molecular connectivity           | 2017 | 
+| Brodie Schroeder | ML for molecular connectivity           | 2017 |
