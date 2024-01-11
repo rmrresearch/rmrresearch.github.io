@@ -21,8 +21,8 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ryan M. Richard"
 description              : >- # this means to ignore newlines until "url:"
-                           Research group at Ames National Laboratory and Iowa 
-                           State University focusing on electronic structure 
+                           Research group at Ames National Laboratory and Iowa
+                           State University focusing on electronic structure
                            theory, computer science, and high-performance
                            computing.
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -131,7 +131,7 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
- 
+
 
 # Markdown Processing
 kramdown:
@@ -212,7 +212,7 @@ collections:
   tutorials:
     output: true
     permalink: /:collection/:path/
-  
+
 
 
 # Defaults
