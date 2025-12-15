@@ -15,3 +15,6 @@ cv.synctex.gz
 
 #VSCode Settings
 .vscode/
+
+# Mac temp files
+.DS_Store
