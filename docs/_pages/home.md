@@ -44,16 +44,6 @@ gallery2:
     url: "/publications/"   
 ---
 
-This website is under heavy construction at the moment.
-{: .notice--warning}
-
-We are very interested in growing and have opportunities for undergraduate,
-graduate, and post doctoral researchers. We also are always looking for 
-additional synergistic collaborations. Please feel free to 
-[reach out](mailto:rrichard@ameslab.gov) if you are interested.
-{: .notice--warning}
-
-
 Welcome to the Richard Group homepage! Use the links below to learn more about
 the group members and our research. This site also serves as resource for
 current group members (or I guess really anyone with internet access) and
